@@ -23,18 +23,29 @@ public void openNext(){
     driver.get("https://www.next.co.uk/");
 }
 @Test
-public void openPoundLand(){driver.get("https://www.poundland.co.uk/");}
+public void openPoundLand(){
+    driver.get("https://www.poundland.co.uk/");
+}
 @Test
-public void openBBC(){ driver.get("https://www.bbc.co.uk/");}
-    @Test
-    public void openEbay(){ driver.get("https://www.ebay.co.uk/");}
+public void openBBC(){
+    driver.get("https://www.bbc.co.uk/");
+}
+@Test
+public void openEbay(){
+    driver.get("https://www.ebay.co.uk/");
+}
+@Test
+public void openPetsatHome(){
+    driver.get("https://www.petsathome.com/");
+}
+@Test
+public void openPayPal(){
+    driver.get("https://www.Paypal.co.uk/");
+}
 
 @After
 public void tearDown() throws InterruptedException {
     Thread.sleep(3000);
     driver.close();
 }
-
-
-
 }
