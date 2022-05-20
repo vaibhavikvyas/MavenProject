@@ -28,6 +28,7 @@ public class OpenMusicVideo {
         driver.findElement(By.id("search-icon-legacy")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@title='Michael Bublé - Feeling Good [Official Music Video]']")).click();
+
         //driver.findElement(By.xpath("/html/body/ytd-app/div[1]/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a/yt-formatted-string")).click();
         //driver.findElement(By.xpath("//*[@href='/watch?v=Edwsf-8F3sI']")).click();
     }
